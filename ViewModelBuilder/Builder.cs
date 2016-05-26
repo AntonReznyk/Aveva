@@ -107,5 +107,13 @@ namespace ViewModelBuilder
 
             return rightBodyViewModel;
         }
+
+        public FooterViewModel BuildFooterViewModel(Item mainItem)
+        {
+            FooterViewModel footer = new FooterViewModel();
+            footer.Text = mainItem.GetChildren().FirstOrDefault(x => x.Name == "Footer").Fields["Content"].Value;
+
+            return footer;
+        }
     }
 }

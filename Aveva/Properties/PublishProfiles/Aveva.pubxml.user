@@ -49,10 +49,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/20/2016 17:58:27</publishTime>
     </File>
     <File Include="bin/Aveva.dll">
-      <publishTime>05/26/2016 15:36:36</publishTime>
+      <publishTime>05/26/2016 17:02:59</publishTime>
     </File>
     <File Include="bin/Aveva.pdb">
-      <publishTime>05/26/2016 15:36:35</publishTime>
+      <publishTime>05/26/2016 17:02:59</publishTime>
     </File>
     <File Include="bin/ComponentArt.Web.UI.dll">
       <publishTime>02/03/2016 17:17:58</publishTime>
@@ -61,10 +61,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>02/03/2016 17:19:46</publishTime>
     </File>
     <File Include="bin/Interfaces.dll">
-      <publishTime>05/26/2016 15:36:30</publishTime>
+      <publishTime>05/26/2016 16:43:45</publishTime>
     </File>
     <File Include="bin/Interfaces.pdb">
-      <publishTime>05/26/2016 15:36:30</publishTime>
+      <publishTime>05/26/2016 16:43:45</publishTime>
     </File>
     <File Include="bin/ITHit.WebDAV.Server.dll">
       <publishTime>02/03/2016 17:19:46</publishTime>
@@ -175,16 +175,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/20/2016 17:58:26</publishTime>
     </File>
     <File Include="bin/ViewModelBuilder.dll">
-      <publishTime>05/26/2016 15:36:31</publishTime>
+      <publishTime>05/26/2016 16:43:45</publishTime>
     </File>
     <File Include="bin/ViewModelBuilder.pdb">
-      <publishTime>05/26/2016 15:36:31</publishTime>
+      <publishTime>05/26/2016 16:43:45</publishTime>
     </File>
     <File Include="bin/ViewModels.dll">
-      <publishTime>05/26/2016 15:36:30</publishTime>
+      <publishTime>05/26/2016 16:43:45</publishTime>
     </File>
     <File Include="bin/ViewModels.pdb">
-      <publishTime>05/26/2016 15:36:30</publishTime>
+      <publishTime>05/26/2016 16:43:45</publishTime>
     </File>
     <File Include="css/base.css">
       <publishTime>05/23/2016 10:11:22</publishTime>
@@ -211,7 +211,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/23/2016 10:11:40</publishTime>
     </File>
     <File Include="css/jquery/jquery-ui-1.9.0.custom.css">
-      <publishTime>12/05/2012 13:02:17</publishTime>
+      <publishTime>05/12/2012 13:02:17</publishTime>
     </File>
     <File Include="css/layout.css">
       <publishTime>05/23/2016 10:11:42</publishTime>
@@ -564,6 +564,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Views/Home/CenterBody.cshtml">
       <publishTime>05/25/2016 14:54:43</publishTime>
     </File>
+    <File Include="Views/Home/Footer.cshtml">
+      <publishTime>05/26/2016 16:39:55</publishTime>
+    </File>
     <File Include="Views/Home/Header.cshtml">
       <publishTime>05/26/2016 15:10:58</publishTime>
     </File>
@@ -589,13 +592,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/MainLayout.cshtml">
-      <publishTime>05/26/2016 15:43:19</publishTime>
+      <publishTime>05/26/2016 16:43:26</publishTime>
     </File>
     <File Include="Views/web.config">
       <publishTime>05/20/2016 13:33:51</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>05/26/2016 15:36:49</publishTime>
+      <publishTime>05/26/2016 16:43:53</publishTime>
     </File>
   </ItemGroup>
 </Project>

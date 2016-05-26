@@ -50,5 +50,10 @@ namespace Aveva.Controllers
         {
             return View(_viewModelBuilder.BuildRightBodyViewModel(Sitecore.Context.Item));
         }
+
+        public ActionResult Footer()
+        {
+            return View(_viewModelBuilder.BuildFooterViewModel(_homeItem));
+        }
     }
 }

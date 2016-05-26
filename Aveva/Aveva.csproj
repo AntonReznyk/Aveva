@@ -138,13 +138,8 @@
     <Content Include="css\flexslider.css" />
     <Content Include="css\jquery-ui-1.9.0.custom.css" />
     <Content Include="css\jquery.fancybox.css" />
-    <Content Include="css\jquery\jquery-ui-1.9.0.custom.css" />
     <Content Include="css\layout.css" />
     <Content Include="css\print_base.css" />
-    <Content Include="css\screen\basemod.css" />
-    <Content Include="css\screen\content.css" />
-    <Content Include="css\screen\flexslider.css" />
-    <Content Include="css\screen\jquery.fancybox.css" />
     <Content Include="css\tc.css" />
     <Content Include="Global.asax" />
     <Content Include="images\all-complex-light-blue.gif" />
@@ -283,6 +278,7 @@
     <Content Include="Views\Home\LeftBody.cshtml" />
     <Content Include="Views\Home\RightBody.cshtml" />
     <Content Include="Views\Home\TopBody.cshtml" />
+    <Content Include="Views\Home\Footer.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

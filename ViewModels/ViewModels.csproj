@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CenterBodyViewModel.cs" />
+    <Compile Include="FooterViewModel.cs" />
     <Compile Include="LeftBodyViewModel.cs" />
     <Compile Include="RightBodyViewModel.cs" />
     <Compile Include="TopBodyViewModel.cs" />

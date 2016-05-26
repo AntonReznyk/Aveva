@@ -7,3 +7,12 @@ C:\Users\AntonRez\documents\visual studio 2015\Projects\ViewModelBuilder\bin\Deb
 C:\Users\AntonRez\documents\visual studio 2015\Projects\ViewModelBuilder\obj\Debug\ViewModelBuilder.csprojResolveAssemblyReference.cache
 C:\Users\AntonRez\documents\visual studio 2015\Projects\ViewModelBuilder\obj\Debug\ViewModelBuilder.dll
 C:\Users\AntonRez\documents\visual studio 2015\Projects\ViewModelBuilder\obj\Debug\ViewModelBuilder.pdb
+C:\Users\AntonRez\Documents\Aveva\ViewModelBuilder\bin\Debug\ViewModelBuilder.dll
+C:\Users\AntonRez\Documents\Aveva\ViewModelBuilder\bin\Debug\ViewModelBuilder.pdb
+C:\Users\AntonRez\Documents\Aveva\ViewModelBuilder\bin\Debug\Interfaces.dll
+C:\Users\AntonRez\Documents\Aveva\ViewModelBuilder\bin\Debug\ViewModels.dll
+C:\Users\AntonRez\Documents\Aveva\ViewModelBuilder\bin\Debug\Interfaces.pdb
+C:\Users\AntonRez\Documents\Aveva\ViewModelBuilder\bin\Debug\ViewModels.pdb
+C:\Users\AntonRez\Documents\Aveva\ViewModelBuilder\obj\Debug\ViewModelBuilder.csprojResolveAssemblyReference.cache
+C:\Users\AntonRez\Documents\Aveva\ViewModelBuilder\obj\Debug\ViewModelBuilder.dll
+C:\Users\AntonRez\Documents\Aveva\ViewModelBuilder\obj\Debug\ViewModelBuilder.pdb

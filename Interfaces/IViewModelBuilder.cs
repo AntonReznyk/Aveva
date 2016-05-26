@@ -16,5 +16,6 @@ namespace Interfaces
         LeftBodyViewModel BuildLeftBodyViewModel(Item mainItem);
         CenterBodyViewModel BuildCenterBodyViewModel(Item mainItem);
         RightBodyViewModel BuildRightBodyViewModel(Item mainItem);
+        FooterViewModel BuildFooterViewModel(Item mainItem);
     }
 }

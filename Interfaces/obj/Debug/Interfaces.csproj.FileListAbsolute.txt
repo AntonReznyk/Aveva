@@ -23,3 +23,28 @@ C:\Users\AntonRez\documents\visual studio 2015\Projects\Interfaces\bin\Debug\New
 C:\Users\AntonRez\documents\visual studio 2015\Projects\Interfaces\bin\Debug\Lucene.Net.xml
 C:\Users\AntonRez\documents\visual studio 2015\Projects\Interfaces\bin\Debug\HtmlAgilityPack.xml
 C:\Users\AntonRez\documents\visual studio 2015\Projects\Interfaces\bin\Debug\Telerik.Web.UI.xml
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Interfaces.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Interfaces.pdb
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Sitecore.Kernel.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\ViewModels.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Newtonsoft.Json.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Lucene.Net.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\ITHit.WebDAV.Server.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Sitecore.Logging.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\HtmlAgilityPack.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Mvp.Xml.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\ComponentArt.Web.UI.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Sitecore.Zip.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Sitecore.NVelocity.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Sitecore.Logging.Client.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\RadEditor.Net2.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Telerik.Web.UI.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\ViewModels.pdb
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Sitecore.Kernel.xml
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Newtonsoft.Json.xml
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Lucene.Net.xml
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\HtmlAgilityPack.xml
+C:\Users\AntonRez\Documents\Aveva\Interfaces\bin\Debug\Telerik.Web.UI.xml
+C:\Users\AntonRez\Documents\Aveva\Interfaces\obj\Debug\Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\AntonRez\Documents\Aveva\Interfaces\obj\Debug\Interfaces.dll
+C:\Users\AntonRez\Documents\Aveva\Interfaces\obj\Debug\Interfaces.pdb

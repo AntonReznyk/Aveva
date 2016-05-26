@@ -3,3 +3,8 @@ C:\Users\AntonRez\documents\visual studio 2015\Projects\ViewModels\bin\Debug\Vie
 C:\Users\AntonRez\documents\visual studio 2015\Projects\ViewModels\obj\Debug\ViewModels.dll
 C:\Users\AntonRez\documents\visual studio 2015\Projects\ViewModels\obj\Debug\ViewModels.pdb
 C:\Users\AntonRez\documents\visual studio 2015\Projects\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\AntonRez\Documents\Aveva\ViewModels\bin\Debug\ViewModels.dll
+C:\Users\AntonRez\Documents\Aveva\ViewModels\bin\Debug\ViewModels.pdb
+C:\Users\AntonRez\Documents\Aveva\ViewModels\obj\Debug\ViewModels.csprojResolveAssemblyReference.cache
+C:\Users\AntonRez\Documents\Aveva\ViewModels\obj\Debug\ViewModels.dll
+C:\Users\AntonRez\Documents\Aveva\ViewModels\obj\Debug\ViewModels.pdb
