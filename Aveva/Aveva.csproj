@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2AC6485F-6EFB-4854-B9EF-3E8BA6B19292}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Aveva</RootNamespace>
+    <AssemblyName>Aveva</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Kamsar.WebConsole, Version=1.2.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Kamsar.WebConsole.1.2.2.0\lib\net40\Kamsar.WebConsole.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MicroCHAP, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MicroCHAP.1.2.1.0\lib\net45\MicroCHAP.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Rainbow, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rainbow.Core.1.3.1\lib\net45\Rainbow.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rainbow.Storage.Sc, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rainbow.Storage.Sc.1.3.1\lib\net45\Rainbow.Storage.Sc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Rainbow.Storage.Yaml, Version=1.3.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Rainbow.Storage.Yaml.1.3.1\lib\net45\Rainbow.Storage.Yaml.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\..\..\..\..\..\inetpub\wwwroot\Aveva\Website\bin\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc">
+      <HintPath>..\..\..\..\..\..\inetpub\wwwroot\Aveva\Website\bin\Sitecore.Mvc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sitecore.Mvc.Analytics">
+      <HintPath>..\..\..\..\..\..\inetpub\wwwroot\Aveva\Website\bin\Sitecore.Mvc.Analytics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Unicorn, Version=3.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unicorn.Core.3.2.0\lib\net45\Unicorn.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Web.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Deployment">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Webpages.Razor">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Webpages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Helpers">
+      <HintPath>..\packages\Microsoft.AspNet.Webpages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\base.css" />
+    <Content Include="css\basemod.css" />
+    <Content Include="css\content.css" />
+    <Content Include="css\default.css" />
+    <Content Include="css\defaulten.css" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\jquery-ui-1.9.0.custom.css" />
+    <Content Include="css\jquery.fancybox.css" />
+    <Content Include="css\jquery\jquery-ui-1.9.0.custom.css" />
+    <Content Include="css\layout.css" />
+    <Content Include="css\print_base.css" />
+    <Content Include="css\screen\basemod.css" />
+    <Content Include="css\screen\content.css" />
+    <Content Include="css\screen\flexslider.css" />
+    <Content Include="css\screen\jquery.fancybox.css" />
+    <Content Include="css\tc.css" />
+    <Content Include="Global.asax" />
+    <Content Include="images\all-complex-light-blue.gif" />
+    <Content Include="images\ARC-view-Digital-Asset-2014.png" />
+    <Content Include="images\arrow_blue.png" />
+    <Content Include="images\arrow_breadcrumb.png" />
+    <Content Include="images\arrow_link.gif" />
+    <Content Include="images\arrow_news_left.gif" />
+    <Content Include="images\arrow_news_right.gif" />
+    <Content Include="images\AVEVA-Digital-Asset-brochure.png" />
+    <Content Include="images\AVEVA-Engage_300x200px.png" />
+    <Content Include="images\aveva_logo.png" />
+    <Content Include="images\AWM-title-banner-2014.png" />
+    <Content Include="images\banner-aveva-digital-asset.jpg" />
+    <Content Include="images\banner_product_finder.png" />
+    <Content Include="images\bg_content_middle.png" />
+    <Content Include="images\bg_content_middle_lines.png" />
+    <Content Include="images\bg_content_top.png" />
+    <Content Include="images\bg_countrys.png" />
+    <Content Include="images\bg_flash_navi.png" />
+    <Content Include="images\bg_flash_navi_item.png" />
+    <Content Include="images\bg_footer_bottom.png" />
+    <Content Include="images\bg_footer_middle.png" />
+    <Content Include="images\bg_gradient.gif" />
+    <Content Include="images\bg_header.png" />
+    <Content Include="images\bg_input_search.png" />
+    <Content Include="images\bg_item_countrys_left.png" />
+    <Content Include="images\bg_item_countrys_right.png" />
+    <Content Include="images\bg_navi_item.png" />
+    <Content Include="images\bg_wires.png" />
+    <Content Include="images\button_search.png" />
+    <Content Include="images\button_share.png" />
+    <Content Include="images\clear.png" />
+    <Content Include="images\click_to_explore_v2.png" />
+    <Content Include="images\DA-CAPEX-OPEX.png" />
+    <Content Include="images\Digital-Asset-454px.png" />
+    <Content Include="images\Digital-Asset-Approach-Business-Paper-cover-200px.png" />
+    <Content Include="images\download %281%29.gif" />
+    <Content Include="images\download %281%29.png" />
+    <Content Include="images\download %282%29.gif" />
+    <Content Include="images\download %282%29.png" />
+    <Content Include="images\download %283%29.gif" />
+    <Content Include="images\download %283%29.png" />
+    <Content Include="images\download %284%29.gif" />
+    <Content Include="images\download %284%29.png" />
+    <Content Include="images\download %285%29.gif" />
+    <Content Include="images\download %286%29.gif" />
+    <Content Include="images\download %287%29.gif" />
+    <Content Include="images\download %288%29.gif" />
+    <Content Include="images\download.gif" />
+    <Content Include="images\download.png" />
+    <Content Include="images\frost_and_sullivan_award_spotlight.gif" />
+    <Content Include="images\icon_footer_world.png" />
+    <Content Include="images\icon_global.png" />
+    <Content Include="images\icon_hdownload.png" />
+    <Content Include="images\icon_login.png" />
+    <Content Include="images\linkedin_60x60.png" />
+    <Content Include="images\Mining1.jpg" />
+    <Content Include="images\more-complex-dark.gif" />
+    <Content Include="images\Naval_rauma.jpg" />
+    <Content Include="images\nav_logo114.png" />
+    <Content Include="images\next3.png" />
+    <Content Include="images\one-complex-dark.gif" />
+    <Content Include="images\pagination-square2.png" />
+    <Content Include="images\Paks2Turbine Room.jpg" />
+    <Content Include="images\Paper1.jpg" />
+    <Content Include="images\Petrobras_refinery.jpg" />
+    <Content Include="images\Plant1.jpg" />
+    <Content Include="images\Plant2.jpg" />
+    <Content Include="images\prev3.png" />
+    <Content Include="images\quote_top.png" />
+    <Content Include="images\Refining1.jpg" />
+    <Content Include="images\search_box_icon.png" />
+    <Content Include="images\small-grey-disclosure-arrow-down.png" />
+    <Content Include="images\small-logo.png" />
+    <Content Include="images\Twitter_128x128.png" />
+    <Content Include="images\video-Digital-Asset.png" />
+    <Content Include="images\Waller-Marine-Barges-978px.jpg" />
+    <Content Include="images\world_map1.gif" />
+    <Content Include="images\Youtube_128x128.png" />
+    <Content Include="images\Zeevaart-TSHD-GATEWAY-978px.jpg" />
+    <Content Include="js\1771811.js" />
+    <Content Include="js\addthis_widget.js" />
+    <Content Include="js\analytics.js" />
+    <Content Include="js\async-ads.js" />
+    <Content Include="js\cse.js" />
+    <Content Include="js\date.js" />
+    <Content Include="js\default+en.I.js" />
+    <Content Include="js\easySlider1.7.js" />
+    <Content Include="js\global.js" />
+    <Content Include="js\gtm.js" />
+    <Content Include="js\JavaScript.js" />
+    <Content Include="js\jquery-1.7.2.min.js" />
+    <Content Include="js\jquery-ui-1.9.0.custom.min.js" />
+    <Content Include="js\jquery.bgiframe.js" />
+    <Content Include="js\jquery.cookies.js" />
+    <Content Include="js\jquery.fancybox-media.js" />
+    <Content Include="js\jquery.fancybox.js" />
+    <Content Include="js\jquery.flexslider-min.js" />
+    <Content Include="js\jquery.masonry.min.js" />
+    <Content Include="js\menu.14a2b1968e51178ce945.js" />
+    <Content Include="js\nr-943.min.js" />
+    <Content Include="js\slides.min.jquery.js" />
+    <Content Include="js\swfobject.js" />
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Rainbow.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.UI.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.SharedSecret.config.example" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Remote.config.disabled" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Deployed.config.disabled" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.DataProvider.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.CustomSerializationFolder.config.example" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.NewItemsOnly.example" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Dependency.config.example" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.Configs.Default.example" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.config" />
+    <Content Include="App_Config\Include\Unicorn\Unicorn.AutoPublish.config" />
+    <Content Include="App_Config\Include\Unicorn\Serialization.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="images\0CEEF2FEAC574F5EA78A6BB652B33B40.ashx" />
+    <Content Include="images\13674F8668A4431097D55C21B5DC7A82.ashx" />
+    <Content Include="images\careers_bw2.ashx" />
+    <None Include="Properties\PublishProfiles\Aveva.pubxml" />
+    <Content Include="Views\MainLayout.cshtml" />
+    <Content Include="Web.config" />
+    <Content Include="Views\Home\Header.cshtml" />
+    <Content Include="Views\Home\Menu.cshtml" />
+    <Content Include="Views\Home\CenterBody.cshtml" />
+    <Content Include="Views\Home\LeftBody.cshtml" />
+    <Content Include="Views\Home\RightBody.cshtml" />
+    <Content Include="Views\Home\TopBody.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Interfaces\Interfaces.csproj">
+      <Project>{8a71e511-f257-4d71-83d1-9a5157bb9916}</Project>
+      <Name>Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViewModelBuilder\ViewModelBuilder.csproj">
+      <Project>{6b729180-a695-4244-81c9-b9aa587637b8}</Project>
+      <Name>ViewModelBuilder</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ViewModels\ViewModels.csproj">
+      <Project>{aab57edc-d6fa-4ed9-805f-39396d8c3836}</Project>
+      <Name>ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>56054</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:56054/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

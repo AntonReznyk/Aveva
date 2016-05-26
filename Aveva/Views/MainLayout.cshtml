@@ -1,0 +1,63 @@
+﻿@using Sitecore.Mvc
+@using Sitecore.Mvc.Analytics.Extensions
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+@{
+  Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/css/base.css" rel="stylesheet" />
+    <link href="~/css/basemod.css" rel="stylesheet" />
+    <link href="~/css/content.css" rel="stylesheet" />
+    <link href="~/css/default.css" rel="stylesheet" />
+    <link href="~/css/defaulten.css" rel="stylesheet" />
+    <link href="~/css/flexslider.css" rel="stylesheet" />
+    <link href="~/css/jquery-ui-1.9.0.custom.css" rel="stylesheet" />
+    <link href="~/css/jquery.fancybox.css" rel="stylesheet" />
+    <link href="~/css/layout.css" rel="stylesheet" />
+    <link href="~/css/print_base.css" rel="stylesheet" />
+    <link href="~/css/tc.css" rel="stylesheet" />
+
+  <title>@Html.Sitecore().Field("title", new { DisableWebEdit = true })</title>
+  @Html.Sitecore().VisitorIdentification()
+</head>
+  <body>
+    <div>
+        @Html.Sitecore().Placeholder("header")
+    </div>
+      <div id="main">
+          @Html.Sitecore().Placeholder("topBody")
+          <div id="content" class="content-lines clearfix">
+              <div class="sep-content">&nbsp;</div>
+              @Html.Sitecore().Placeholder("leftBody")
+              @Html.Sitecore().Placeholder("centerBody")
+              @Html.Sitecore().Placeholder("rightBody")
+          </div>
+      </div>
+</body>
+</html>
+<script src="~/js/jquery-1.7.2.min.js"></script>
+<script src="~/js/1771811.js"></script>
+<script src="~/js/addthis_widget.js"></script>
+<script src="~/js/analytics.js"></script>
+<script src="~/js/async-ads.js"></script>
+<script src="~/js/cse.js"></script>
+<script src="~/js/date.js"></script>
+<script src="~/js/default+en.I.js"></script>
+<script src="~/js/easySlider1.7.js"></script>
+<script src="~/js/global.js"></script>
+<script src="~/js/gtm.js"></script>
+<script src="~/js/JavaScript.js"></script>
+<script src="~/js/jquery-ui-1.9.0.custom.min.js"></script>
+<script src="~/js/jquery.bgiframe.js"></script>
+<script src="~/js/jquery.cookies.js"></script>
+<script src="~/js/jquery.fancybox-media.js"></script>
+<script src="~/js/jquery.fancybox.js"></script>
+<script src="~/js/jquery.flexslider-min.js"></script>
+<script src="~/js/jquery.masonry.min.js"></script>
+<script src="~/js/menu.14a2b1968e51178ce945.js"></script>
+<script src="~/js/nr-943.min.js"></script>
+<script src="~/js/slides.min.jquery.js"></script>
+<script src="~/js/swfobject.js"></script>

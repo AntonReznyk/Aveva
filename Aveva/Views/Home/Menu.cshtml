@@ -1,0 +1,20 @@
+﻿@model IEnumerable<ViewModels.MenuViewModel>
+
+<ul id="nav" class="clearfix">
+    @foreach (var menuItem in Model)
+    {
+        <li>
+            <a href="@menuItem.UrlPath">@menuItem.MenuName</a>
+            <div class="dd">
+                <ul>
+                    @foreach (var subItem in menuItem.SubMenuItems)
+                    {
+                        <li><a href="@subItem.UrlPath">@subItem.Name</a></li>
+                    }
+                </ul>
+            </div>
+        </li>
+    }
+</ul>
+
+

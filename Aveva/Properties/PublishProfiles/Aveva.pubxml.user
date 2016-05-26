@@ -1,0 +1,601 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>http://Aveva/</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App_Config/Include/Rainbow.config">
+      <publishTime>05/20/2016 17:58:24</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Serialization.config">
+      <publishTime>05/20/2016 18:38:38</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.AutoPublish.config">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.config">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Configs.Default.example">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Configs.Dependency.config.example">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Configs.NewItemsOnly.example">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.CustomSerializationFolder.config.example">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.DataProvider.config">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Deployed.config.disabled">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.Remote.config.disabled">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.SharedSecret.config.example">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="App_Config/Include/Unicorn/Unicorn.UI.config">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="bin/Aveva.dll">
+      <publishTime>05/26/2016 15:36:36</publishTime>
+    </File>
+    <File Include="bin/Aveva.pdb">
+      <publishTime>05/26/2016 15:36:35</publishTime>
+    </File>
+    <File Include="bin/ComponentArt.Web.UI.dll">
+      <publishTime>02/03/2016 17:17:58</publishTime>
+    </File>
+    <File Include="bin/HtmlAgilityPack.dll">
+      <publishTime>02/03/2016 17:19:46</publishTime>
+    </File>
+    <File Include="bin/Interfaces.dll">
+      <publishTime>05/26/2016 15:36:30</publishTime>
+    </File>
+    <File Include="bin/Interfaces.pdb">
+      <publishTime>05/26/2016 15:36:30</publishTime>
+    </File>
+    <File Include="bin/ITHit.WebDAV.Server.dll">
+      <publishTime>02/03/2016 17:19:46</publishTime>
+    </File>
+    <File Include="bin/Kamsar.WebConsole.dll">
+      <publishTime>05/20/2016 17:58:22</publishTime>
+    </File>
+    <File Include="bin/Lucene.Net.dll">
+      <publishTime>02/03/2016 17:19:54</publishTime>
+    </File>
+    <File Include="bin/MicroCHAP.dll">
+      <publishTime>05/20/2016 17:58:23</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>05/19/2016 12:30:32</publishTime>
+    </File>
+    <File Include="bin/Mvp.Xml.dll">
+      <publishTime>02/03/2016 17:19:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>02/03/2016 17:19:56</publishTime>
+    </File>
+    <File Include="bin/RadEditor.Net2.dll">
+      <publishTime>02/03/2016 17:19:58</publishTime>
+    </File>
+    <File Include="bin/Rainbow.dll">
+      <publishTime>05/20/2016 17:58:23</publishTime>
+    </File>
+    <File Include="bin/Rainbow.Storage.Sc.dll">
+      <publishTime>05/20/2016 17:58:24</publishTime>
+    </File>
+    <File Include="bin/Rainbow.Storage.Yaml.dll">
+      <publishTime>05/20/2016 17:58:25</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.Client.dll">
+      <publishTime>02/03/2016 17:20:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Logging.dll">
+      <publishTime>02/03/2016 17:20:24</publishTime>
+    </File>
+    <File Include="bin/Sitecore.NVelocity.dll">
+      <publishTime>02/03/2016 17:20:30</publishTime>
+    </File>
+    <File Include="bin/Sitecore.Zip.dll">
+      <publishTime>02/03/2016 17:20:56</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>05/19/2016 12:30:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>05/19/2016 12:30:33</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>05/19/2016 12:30:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Deployment.dll">
+      <publishTime>05/19/2016 12:30:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.dll">
+      <publishTime>05/19/2016 12:30:32</publishTime>
+    </File>
+    <File Include="bin/System.Web.Webpages.Razor.dll">
+      <publishTime>05/19/2016 12:30:32</publishTime>
+    </File>
+    <File Include="bin/Telerik.Web.UI.dll">
+      <publishTime>02/03/2016 17:21:12</publishTime>
+    </File>
+    <File Include="bin/Unicorn.dll">
+      <publishTime>05/20/2016 17:58:26</publishTime>
+    </File>
+    <File Include="bin/ViewModelBuilder.dll">
+      <publishTime>05/26/2016 15:36:31</publishTime>
+    </File>
+    <File Include="bin/ViewModelBuilder.pdb">
+      <publishTime>05/26/2016 15:36:31</publishTime>
+    </File>
+    <File Include="bin/ViewModels.dll">
+      <publishTime>05/26/2016 15:36:30</publishTime>
+    </File>
+    <File Include="bin/ViewModels.pdb">
+      <publishTime>05/26/2016 15:36:30</publishTime>
+    </File>
+    <File Include="css/base.css">
+      <publishTime>05/23/2016 10:11:22</publishTime>
+    </File>
+    <File Include="css/basemod.css">
+      <publishTime>05/26/2016 14:37:49</publishTime>
+    </File>
+    <File Include="css/content.css">
+      <publishTime>05/23/2016 10:11:28</publishTime>
+    </File>
+    <File Include="css/default.css">
+      <publishTime>05/23/2016 10:11:30</publishTime>
+    </File>
+    <File Include="css/defaulten.css">
+      <publishTime>05/23/2016 10:11:32</publishTime>
+    </File>
+    <File Include="css/flexslider.css">
+      <publishTime>05/23/2016 10:11:36</publishTime>
+    </File>
+    <File Include="css/jquery-ui-1.9.0.custom.css">
+      <publishTime>05/23/2016 10:11:38</publishTime>
+    </File>
+    <File Include="css/jquery.fancybox.css">
+      <publishTime>05/23/2016 10:11:40</publishTime>
+    </File>
+    <File Include="css/jquery/jquery-ui-1.9.0.custom.css">
+      <publishTime>12/05/2012 13:02:17</publishTime>
+    </File>
+    <File Include="css/layout.css">
+      <publishTime>05/23/2016 10:11:42</publishTime>
+    </File>
+    <File Include="css/print_base.css">
+      <publishTime>05/23/2016 10:11:42</publishTime>
+    </File>
+    <File Include="css/screen/basemod.css">
+      <publishTime>05/24/2016 13:21:44</publishTime>
+    </File>
+    <File Include="css/screen/content.css">
+      <publishTime>05/24/2016 13:07:23</publishTime>
+    </File>
+    <File Include="css/screen/flexslider.css">
+      <publishTime>05/24/2016 13:10:42</publishTime>
+    </File>
+    <File Include="css/screen/jquery.fancybox.css">
+      <publishTime>05/24/2016 13:08:07</publishTime>
+    </File>
+    <File Include="css/tc.css">
+      <publishTime>05/23/2016 10:11:46</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/20/2016 15:38:13</publishTime>
+    </File>
+    <File Include="images/0CEEF2FEAC574F5EA78A6BB652B33B40.ashx">
+      <publishTime>05/24/2016 13:10:54</publishTime>
+    </File>
+    <File Include="images/13674F8668A4431097D55C21B5DC7A82.ashx">
+      <publishTime>05/24/2016 13:10:54</publishTime>
+    </File>
+    <File Include="images/all-complex-light-blue.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/ARC-view-Digital-Asset-2014.png">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="images/arrow_blue.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/arrow_breadcrumb.png">
+      <publishTime>05/24/2016 13:13:38</publishTime>
+    </File>
+    <File Include="images/arrow_link.gif">
+      <publishTime>05/24/2016 13:13:38</publishTime>
+    </File>
+    <File Include="images/arrow_news_left.gif">
+      <publishTime>05/24/2016 13:10:54</publishTime>
+    </File>
+    <File Include="images/arrow_news_right.gif">
+      <publishTime>05/24/2016 13:10:54</publishTime>
+    </File>
+    <File Include="images/AVEVA-Digital-Asset-brochure.png">
+      <publishTime>05/24/2016 13:13:40</publishTime>
+    </File>
+    <File Include="images/AVEVA-Engage_300x200px.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/aveva_logo.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/AWM-title-banner-2014.png">
+      <publishTime>05/24/2016 13:10:54</publishTime>
+    </File>
+    <File Include="images/banner-aveva-digital-asset.jpg">
+      <publishTime>05/24/2016 13:13:38</publishTime>
+    </File>
+    <File Include="images/banner_product_finder.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/bg_content_middle.png">
+      <publishTime>05/24/2016 13:13:38</publishTime>
+    </File>
+    <File Include="images/bg_content_middle_lines.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/bg_content_top.png">
+      <publishTime>05/24/2016 13:13:38</publishTime>
+    </File>
+    <File Include="images/bg_countrys.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/bg_flash_navi.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/bg_flash_navi_item.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/bg_footer_bottom.png">
+      <publishTime>05/24/2016 13:13:42</publishTime>
+    </File>
+    <File Include="images/bg_footer_middle.png">
+      <publishTime>05/24/2016 13:13:40</publishTime>
+    </File>
+    <File Include="images/bg_gradient.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/bg_header.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/bg_input_search.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/bg_item_countrys_left.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/bg_item_countrys_right.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/bg_navi_item.png">
+      <publishTime>05/24/2016 13:13:38</publishTime>
+    </File>
+    <File Include="images/bg_wires.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/button_search.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/button_share.png">
+      <publishTime>05/24/2016 13:13:42</publishTime>
+    </File>
+    <File Include="images/careers_bw2.ashx">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/clear.png">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/click_to_explore_v2.png">
+      <publishTime>05/24/2016 13:13:40</publishTime>
+    </File>
+    <File Include="images/DA-CAPEX-OPEX.png">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="images/Digital-Asset-454px.png">
+      <publishTime>05/24/2016 13:13:40</publishTime>
+    </File>
+    <File Include="images/Digital-Asset-Approach-Business-Paper-cover-200px.png">
+      <publishTime>05/24/2016 13:13:38</publishTime>
+    </File>
+    <File Include="images/download %281%29.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %281%29.png">
+      <publishTime>05/24/2016 13:13:32</publishTime>
+    </File>
+    <File Include="images/download %282%29.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %282%29.png">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %283%29.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %283%29.png">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %284%29.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %284%29.png">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %285%29.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %286%29.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %287%29.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download %288%29.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/download.png">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/frost_and_sullivan_award_spotlight.gif">
+      <publishTime>05/24/2016 13:10:54</publishTime>
+    </File>
+    <File Include="images/icon_footer_world.png">
+      <publishTime>05/24/2016 13:13:40</publishTime>
+    </File>
+    <File Include="images/icon_global.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/icon_hdownload.png">
+      <publishTime>05/24/2016 13:10:54</publishTime>
+    </File>
+    <File Include="images/icon_login.png">
+      <publishTime>05/24/2016 13:13:36</publishTime>
+    </File>
+    <File Include="images/linkedin_60x60.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/Mining1.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/more-complex-dark.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/Naval_rauma.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/nav_logo114.png">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/next3.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/one-complex-dark.gif">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/pagination-square2.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/Paks2Turbine Room.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/Paper1.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/Petrobras_refinery.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/Plant1.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/Plant2.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/prev3.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/quote_top.png">
+      <publishTime>05/24/2016 13:13:38</publishTime>
+    </File>
+    <File Include="images/Refining1.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/search_box_icon.png">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="images/small-grey-disclosure-arrow-down.png">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/small-logo.png">
+      <publishTime>05/24/2016 13:13:34</publishTime>
+    </File>
+    <File Include="images/Twitter_128x128.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/video-Digital-Asset.png">
+      <publishTime>05/24/2016 13:13:40</publishTime>
+    </File>
+    <File Include="images/Waller-Marine-Barges-978px.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/world_map1.gif">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/Youtube_128x128.png">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="images/Zeevaart-TSHD-GATEWAY-978px.jpg">
+      <publishTime>05/24/2016 13:10:52</publishTime>
+    </File>
+    <File Include="js/1771811.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/addthis_widget.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="js/analytics.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/async-ads.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/cse.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/date.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="js/default+en.I.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="js/easySlider1.7.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/global.js">
+      <publishTime>05/24/2016 16:41:16</publishTime>
+    </File>
+    <File Include="js/gtm.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/JavaScript.js">
+      <publishTime>05/24/2016 13:19:44</publishTime>
+    </File>
+    <File Include="js/jquery-1.7.2.min.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/jquery-ui-1.9.0.custom.min.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="js/jquery.bgiframe.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="js/jquery.cookies.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="js/jquery.fancybox-media.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/jquery.fancybox.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/jquery.flexslider-min.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/jquery.masonry.min.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="js/menu.14a2b1968e51178ce945.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="js/nr-943.min.js">
+      <publishTime>05/24/2016 09:56:36</publishTime>
+    </File>
+    <File Include="js/slides.min.jquery.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="js/swfobject.js">
+      <publishTime>05/24/2016 09:56:38</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>05/20/2016 17:58:27</publishTime>
+    </File>
+    <File Include="Views/AboutLayout.cshtml">
+      <publishTime>05/24/2016 15:44:26</publishTime>
+    </File>
+    <File Include="Views/Home/Body.cshtml">
+      <publishTime>05/25/2016 10:47:18</publishTime>
+    </File>
+    <File Include="Views/Home/CenterBody.cshtml">
+      <publishTime>05/25/2016 14:54:43</publishTime>
+    </File>
+    <File Include="Views/Home/Header.cshtml">
+      <publishTime>05/26/2016 15:10:58</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>05/23/2016 16:05:03</publishTime>
+    </File>
+    <File Include="Views/Home/LeftBody.cshtml">
+      <publishTime>05/25/2016 15:18:47</publishTime>
+    </File>
+    <File Include="Views/Home/MainLayout.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/Home/Menu.cshtml">
+      <publishTime>05/24/2016 17:34:41</publishTime>
+    </File>
+    <File Include="Views/Home/RightBody.cshtml">
+      <publishTime>05/25/2016 15:44:24</publishTime>
+    </File>
+    <File Include="Views/Home/TopBody.cshtml">
+      <publishTime>05/25/2016 17:23:36</publishTime>
+    </File>
+    <File Include="Views/Index/MainLayout.cshtml">
+      <publishTime>01/01/0001 00:00:00</publishTime>
+    </File>
+    <File Include="Views/MainLayout.cshtml">
+      <publishTime>05/26/2016 15:43:19</publishTime>
+    </File>
+    <File Include="Views/web.config">
+      <publishTime>05/20/2016 13:33:51</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/26/2016 15:36:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,645 @@
+@charset "UTF-8";@media all
+{html *{font-size:100.01%;}textarea,pre,code,kbd,samp,var,tt{font-family:Consolas,"Lucida Console","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier;}body{font:normal 100% Arial,Helvetica,Verdana,sans;color:#4d4d4d;}h1,h2,h3,h4,h5,h6{font-family:'Trebuchet MS',Helvetica,sans-serif;font-weight:normal;color:#4d4d4d;margin:0 0 10px 0;}h1{font-size:30px;}h2{font-size:17px;text-transform:uppercase;margin:0 0 4px 0;}h3{font-size:12px;font-weight:bold;font-family:Arial,Helvetica,sans-serif;}h4{font-size:16px;}h5{font-size:14px;}h6{font-size:13px;}ul,ol,dl{line-height:1.5em;margin:0 0 1em 1em;font-size:12px;}ul li{list-style-type:disc;}ul ul li{list-style-type:circle;}#nav li ul li{list-style-type:none;}ol li{list-style-type:decimal;}ol ol li{list-style-type:lower-latin;}li{margin-left:0.8em;line-height:1.5em;}dt{font-weight:bold;}dd{margin:0 0 1em 0.8em;}#flash-content #flash-navi ul li a{margin-top:-4px;padding-top:4px;}p{line-height:16px;font-size:12px;color:5d5d5d;margin:0 0 1em 0;}blockquote,cite,q{font-family:Georgia,"Times New Roman",Times,serif;font-style:italic;}blockquote{margin:0 0 1em 1.6em;color:#666;}strong,b{font-weight:bold;}em,i{font-style:italic;}pre,code,kbd,tt,samp,var{font-size:100%;}pre,code{color:#800;}pre{line-height:1.5em;margin:0 0 1em 0;}kbd,samp,var{color:#666;}var{font-style:italic;}acronym,abbr{border-bottom:1px #aaa dotted;font-variant:small-caps;letter-spacing:.07em;cursor:help;}sub,sup{font-size:91.6667%;}hr{color:#fff;background:transparent;margin:0 0 0.5em 0;padding:0 0 0.5em 0;border:0;border-bottom:1px #eee solid;}a{background:transparent;text-decoration:none;color:#5d5d5d;font-size:12px;}a:visited{}a:hover:
+  { /*color:#182E7A; text-decoration:underline;*/ color: #5780ae; }
+#product-detail .col-1  p a, #product-detail .col-2 p a{color:#5780ae; background:none;/* url(../../images/arrow_link.gif) 0 4px no-repeat*/; padding: 0 0 0 /*1*/0px;}
+	#product-detail  p a:hover{text-decoration:underline;}
+
+.con-texts a{color:#5780AE; background-image:none !important;}
+
+
+#product-detail .logos a, #product-details #key-feature .select-widget a{background:none;}
+
+  /* --- images (with optional captions) | Bilder (mit optionaler Bildunterschrift) ------------------ */
+
+  p.icaption_left { float:left; display:inline; margin: 0 1em 0.15em 0; }
+  p.icaption_right { float:right; display:inline; margin: 0 0 0.15em 1em; }
+
+  p.icaption_left img,
+  p.icaption_right img { padding:0; border: 1px #888 solid; }
+
+  p.icaption_left strong,
+  p.icaption_right strong { display:block; overflow:hidden; margin-top: 2px; padding: 0.3em 0.5em; background: #eee; font-weight: normal; font-size: 91.667%; }
+
+ /**
+  * ------------------------------------------------------------------------------------------------- #
+  *
+  * Generic Content Classes
+  *
+  * (en) standard classes for positioning and highlighting
+  * (de) Standardklassen zur Positionierung und Hervorhebung
+  *
+  * @section content-generic-classes
+  */
+
+  .highlight { color: #f60; }
+  .dimmed { color: #888; }
+
+  .float_left { float: left; display:inline; margin-right: 1em; margin-bottom: 0.15em; }
+  .float_right { float: right; display:inline; margin-left: 1em; margin-bottom: 0.15em; }
+  .center { display:block; text-align:center; margin: 0.5em auto; }
+  
+  div.ddescription {
+    width: 300px;
+}
+
+/** Used for centre blocks on homepage*/
+
+.block_container {
+	width:450px;
+	padding:0;
+	margin:0 0 75px 0;
+	position: relative;
+}
+
+.row1_container {
+	width:450px;
+	clear: both;
+	padding:5px 0px 5px 0px;
+	margin:0;
+}
+
+
+.row2_container {
+	width:450px;
+	position: relative;	
+	clear: both;
+	padding:0;
+	margin:0;	
+}
+
+
+.row2_box1, .row2_box2, .row2_box3 {
+	width:140px;	
+	float:left;
+	padding:0px 5px 0px 5px;
+	margin:0;	
+}
+
+
+#content .box {
+	clear:both;	
+}
+
+
+
+/** Used to centre text and images*/
+.centre_all {
+	text-align:center;
+	margin:0px auto;
+}
+
+/** Used to remove dead space on p tags*/
+#content .box p.p_nomargin {
+               line-height:5px; 
+               margin:0;                            
+}
+
+
+/** Used to add chevron to links in product lightbox*/
+#product-detail .col-1 p a.more, #product-detail .col-2 p a.more {
+	background: url(../../images/arrow_link.gif) 0 4px no-repeat;
+	padding: 0 0 0 10px;
+}
+
+
+/** Need more line-height on the titles*/
+#content .box .title{line-height:14px;}
+
+ /**
+  * ------------------------------------------------------------------------------------------------- #
+  *
+  * Tables | Tabellen
+  *
+  * (en) Generic classes for table-width and design definition
+  * (de) Generische Klassen für die Tabellenbreite und Gestaltungsvorschriften für Tabellen
+  *
+  * @section content-tables
+  */
+  
+  table { width: auto; border-collapse:collapse; margin-bottom: 0.5em; }
+  table th, td { padding: 0.5em 0.5em 0.5em 0em;
+   vertical-align:top;
+   }
+
+
+td.bottom {
+    vertical-align:bottom;
+}
+
+td.top-right {
+    vertical-align:top;
+	float:right;
+}
+
+td.bottom-right {
+    vertical-align:bottom;
+	float:right;	
+}
+
+div.col-2 td {
+    border-top: 0px;
+}
+
+div.col-2 tr {
+    border-top: 0px;
+	border-bottom: 0px;
+}
+
+  div.col-2 div.stripe td {
+    border: 4px solid #ffffff;
+    font-size: 12px;
+    padding: 7px 7px !important;
+}
+
+  div.col-2 div.stripe td a {
+    color: #5780AE;
+}
+
+  div.col-2 div.stripe td a:hover {
+    color: #5780AE;
+	text-decoration:underline;
+}
+
+#content div.col-2 table {
+	border-bottom:0px;
+	border-top:	0px;	
+}
+
+
+  /*table { width: auto; border-collapse:collapse; margin-bottom: 0.5em; border-top: 2px #888 solid; border-bottom: 2px #888 solid; }
+  table caption { font-variant:small-caps; }
+  table.full { width: 100%; }
+  table.fixed { table-layout:fixed; }
+
+  th,td { padding: 0.5em; }
+  thead th { color: #000; border-bottom: 2px #800 solid; }
+  tbody th { background: #e0e0e0; color: #333; }
+  tbody th[scope="row"], tbody th.sub { background: #f0f0f0; }
+
+  tbody th { border-bottom: 1px solid #fff; text-align: left; }
+  tbody td { border-bottom: 1px solid #eee; }
+
+  tbody tr:hover th[scope="row"],
+  tbody tr:hover tbody th.sub { background: #f0e8e8; }
+  tbody tr:hover td { background: #fff8f8; }*/
+
+ /**
+  * ------------------------------------------------------------------------------------------------- #
+  *
+  * Miscellaneous | Sonstiges
+  *
+  * @section content-misc
+  */
+
+ /**
+  * (en) Emphasizing external Hyperlinks via CSS
+  * (de) Hervorhebung externer Hyperlinks mit CSS
+  *
+  * @section             content-external-links
+  * @app-yaml-default    disabled
+  */
+
+  /*
+  #main a[href^="http://www.my-domain.com"],
+  #main a[href^="https://www.my-domain.com"]
+  {
+    padding-left: 12px;
+    background-image: url('your_image.gif');
+    background-repeat: no-repeat;
+    background-position: 0 0.45em;
+  }
+  */
+  .accordion .invisible{ display:none; }
+  .accordion .visible{ display:block; }
+  #tabs-2 .invisible
+  { 
+      position: absolute !important;
+      top: -9999px !important;
+      left: -9999px !important;
+  }
+  #tabs-2 .visible{ display:block; }
+}
+
+/*webforms*/
+.scfSectionContent{font-size:0.8em;}
+.scfSectionBorderAsFieldSet{border:none !important; margin:0 !important;}
+
+.scfSectionLegend {font-family:'Trebuchet MS', Helvetica, Sans-Serif; font-weight:normal; color:#4d4d4d !important; margin:0 0 4px 0 !important; 
+                   font-size:17px; text-transform:uppercase;  }  
+.scfMultipleLineTextBox{padding:3px;}               
+.scfRadioButtonListGeneralPanel, 
+.scfCheckBoxListGeneralPanel, 
+.scfEmailGeneralPanel, 
+.scfMultipleLineGeneralPanel, 
+.scfSingleLineGeneralPanel,
+.scfPasswordGeneralPanel,
+.scfNumberGeneralPanel,
+.scfDateGeneralPanel {overflow:hidden; }
+    .scfRadioButtonListGeneralPanel label, .scfCheckBoxList label{padding:0 0 0 10px;}
+.scfSubmitButtonBorder input{font-size:0.8em;}
+
+.scfCaptchaGeneralPanel{ margin:0 0 10px 0 !important; overflow:visible;} 
+    .scfCaptchaGeneralPanel table{width:280px !important; margin:0 0 10px 0 !important;border:none !important; }
+    .scfCheckBoxListGeneralPanel table{width:280px !important; margin:0 0 10px 0 !important;overflow:visible; }
+        .scfCaptchaGeneralPanel table td{border-bottom:solid 1px #e0e0e0;}
+        .scfCaptchaGeneralPanel table tr{border:none;}
+    .scfForm textarea{margin-bottom:5px; }
+
+/* Download box */
+#iframe .checks p {
+  width: 380px;
+}
+  
+
+
+
+/* Drop shadow on bottom of div*/
+
+.box_shadow{
+	float: left;
+	position: relative;
+	width: 400px;	
+	clear:left;
+	margin-bottom:50px;
+}
+
+.box_shadow .box_shadow_wrapper {
+	border: solid #000 1px;
+	padding:0;
+	box-shadow:  0 8px 6px -6px #000;
+	position: relative;
+	width: 400px;
+	margin-left: 0px;
+	-moz-box-shadow:  0 8px 6px -6px #000;
+	-webkit-box-shadow:  0 8px 6px -6px #000;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000');
+
+}
+
+
+
+
+
+/*3D-boxes used for highlghting*/
+
+.box_3d{
+	float: left;
+	position: relative;
+	top: -8px;
+	width: 409px;
+	margin-top:20px;
+	margin-bottom:50px;
+	clear:both;
+}
+
+.box_3d .box_3d_top{
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/box_3d_blue_top.png") no-repeat scroll 0 0 transparent;
+	height: 16px;
+	position: relative;
+	width: 100%;
+	z-index: 15;
+}
+
+.box_3d .box_3d_wrapper {
+	background-color:#5780AE;
+	height: 280px;
+	position: relative;
+	width: 380px;
+	z-index: 14;
+	margin-left: 9px;
+	color:#FFF;
+	padding:10px;
+}
+
+.box_3d .box_3d_wrapper h2{
+	color:#EEF2F7;
+}
+
+
+div.col-2 .box_3d .box_3d_wrapper ul li{
+	color:#FFF;
+}
+
+
+div.col-2 .box_3d .box_3d_wrapper ul li a, div.col-2 .box_3d .box_3d_wrapper ul li a:visited, div.col-2 .box_3d .box_3d_wrapper ul li a:active{
+	color:#ccc;
+}
+
+
+#content .col-2 .box_3d .box_3d_wrapper ul li a:hover, #content .col-2 .box_3d .box_3d_wrapper ul li a:hover{
+	color:#ccc;
+	text-decoration:underline;
+}
+
+#content .col-2 .box_3d .box_3d_wrapper li{
+	color:#FFF;
+	list-style:disc;
+}
+
+#content .col-2 .box_3d .box_3d_wrapper p a, #content .col-2 .box_3d .box_3d_wrapper p a:active, #content .col-2 .box_3d .box_3d_wrapper p a:visited{
+	color:#ccc;
+}
+
+#content .col-2 .box_3d .box_3d_wrapper p a:hover{
+	color:#ccc;
+	text-decoration:underline;
+}
+
+.box_3d .box_3d_middle {
+	background-color:#2e455e;
+	height: 300px;
+	position: relative;
+	width: 409px;
+	z-index: 14;
+}
+
+.box_3d .box_3d_base {
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/box_3d_blue_bottom.png") no-repeat scroll 0 0 transparent;
+	height: 16px;
+	position: relative;
+	width: 100%;
+	z-index: 16;
+}
+
+
+
+
+/*3D Flat boxes */
+
+.box_3d_flat{
+	float: left;
+	position: relative;
+	top: -8px;
+	width: 409px;
+	margin-top:20px;
+	margin-bottom:50px;
+	clear:both;
+	border-right:1px solid #5780AE;
+}
+
+.box_3d_flat .box_3d_flat_top{
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/box_3d_blue_top2.png") no-repeat scroll 0 0 transparent;
+	height: 16px;
+	position: relative;
+	width: 100%;
+	z-index: 15;
+}
+
+.box_3d_flat .box_3d_flat_wrapper {
+	background-color:#5780AE;
+	height: 300px;
+	position: relative;
+	width: 400px;
+	z-index: 14;
+	margin-left: 9px;
+	color:#FFF;
+	padding:0px;
+/*	border:1px solid #000;*/
+}
+
+.box_3d_flat .box_3d_wrapper_flat h2{
+	color:#EEF2F7;
+}
+
+
+div.col-2 .box_3d_flat .box_3d_wrapper_flat ul li{
+	color:#FFF;
+}
+
+
+div.col-2 .box_3d_flat .box_3d_wrapper_flat ul li a, div.col-2 .box_3d_flat .box_3d_flat_wrapper ul li a:visited, div.col-2 .box_3d_flat .box_3d_flat_wrapper ul li a:active{
+	color:#ccc;
+}
+
+
+#content .col-2 .box_3d_flat .box_3d_flat_wrapper ul li a:hover, #content .col-2 .box_3d_flat .box_3d_flat_wrapper ul li a:hover{
+	color:#ccc;
+	text-decoration:underline;
+}
+
+#content .col-2 .box_3d_flat .box_3d_flat_wrapper li{
+	color:#FFF;
+	list-style:disc;
+}
+
+#content .col-2 .box_3d_flat .box_3d_flat_wrapper p a, #content .col-2 .box_3d_flat .box_3d_flat_wrapper p a:active, #content .col-2 .box_3d_flat .box_3d_flat_wrapper p a:visited{
+	color:#ccc;
+}
+
+#content .col-2 .box_3d_flat .box_3d_flat_wrapper p a:hover{
+	color:#ccc;
+	text-decoration:underline;
+}
+
+.box_3d_flat .box_3d_flat_middle {
+	background-color:#2e455e;
+	height: 300px;
+	position: relative;
+	width: 409px;
+	z-index: 14;
+}
+
+.box_3d_flat .box_3d_flat_base {
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/box_3d_blue_bottom2.png") no-repeat scroll 0 0 transparent;	
+	height: 16px;
+	position: relative;
+	width: 100%;
+	z-index: 16;
+}
+
+
+/*3D Image GAllery ONLY boxes */
+
+.box_3d_image_gallery{
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/box_3d_image_gallery_bg.png") no-repeat scroll 0 0 transparent;
+	float: left;
+	position: relative;
+	top: -8px;
+	width: 409px;
+	margin-top:20px;
+	margin-bottom:50px;
+	clear:both;
+
+}
+
+
+
+.box_3d_image_gallery .box_3d_image_gallery_middle {		
+	background-color:#5780AE;
+	height: 300px;
+	position: relative;
+	width: 400px;
+	z-index: 14;
+	margin-left: 9px;
+	color:#FFF;
+	padding:0px;
+	border-top:1px solid #5780AE;
+	border-right:1px solid #5780AE;
+	border-bottom:1px solid #5780AE;
+}
+
+
+/* Grey panel expandable 300px */
+
+.grey_panel {
+	position: relative;
+	clear:both;	
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+
+.grey_panel_top {
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/grey_panel_top_bg300b.png") no-repeat scroll 0 0 transparent;
+	position: relative;
+	height:15px;
+	padding:0px;
+	z-index: 15;
+}
+
+.grey_panel_content {
+	padding:10px;
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/grey_panel_content_bg300b.png") repeat-y scroll 0 0 transparent;		
+	z-index: 14;
+	width: 285px;
+	margin-top:-10px;
+	margin-bottom:-10px;	
+}
+
+.grey_panel_bottom {
+	position: relative;
+	padding:0px;
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/grey_panel_bottom_bg300b.png") no-repeat scroll 0 0 transparent;
+	height:15px;
+	z-index: 16;		
+}
+
+
+/* Grey panel long expandable 600px */
+
+.grey_panel_long {
+	position: relative;
+	clear:both;		
+	margin-top:10px;
+	margin-bottom:10px;	
+}
+
+.grey_panel_long_top {
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/grey_panel_top_bg600.png") no-repeat scroll 0 0 transparent;
+	position: relative;
+	height:15px;
+	padding:0px;
+	z-index: 15;
+}
+
+.grey_panel_long_content {
+	padding:10px;
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/grey_panel_content_bg600.png") repeat-y scroll 0 0 transparent;		
+	z-index: 14;
+	width: 585px;
+	margin-top:-10px;
+	margin-bottom:-10px;	
+}
+
+.grey_panel_long_bottom {
+	position: relative;
+	padding:0px;
+	background: url("http://www.aveva.com/~/media/aveva/english/images/general/grey_panel_bottom_bg600.png") no-repeat scroll 0 0 transparent;
+	height:15px;
+	z-index: 16;		
+}
+
+/*Fix for long Russian headings in the content tabs eg. 
+http://www.aveva.com/ru-RU/Products_and_Services/AVEVA_for_Plant.aspx
+*/
+#tabs ul.tab-nav li a {
+    font-size: 13px;
+}
+
+/* css for homepage spacing*/
+#content DIV.col-2 .box {
+	margin: 0px 0px 15px;
+}
+
+/* css for HTML slider*/
+#slides {
+    margin-top: 7px;
+}
+
+/* css for download icon in all columns*/
+div.col-1 a.download, div.col-2 a.download, div.col-3 a.download {
+    background: url("http://www.aveva.com/images/icon_hdownload.png") no-repeat scroll 0 2px transparent;
+    line-height: 20px;
+    padding: 2px 3px 2px 18px;
+}
+
+/*Background text select */
+::-moz-selection {
+    background-color: #00b5e5;
+    color: #fff;
+}
+
+::selection {
+    background-color: #00b5e5;
+    color: #fff;
+}
+
+/*Button styling for links */
+
+.button2:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button2 {
+  background: none repeat scroll 0 0 #8F3F6D;
+  border: 0 none;
+  color: #FFFFFF !important;
+  display: inline-block;
+  font-weight: normal;
+  line-height: normal;
+  margin-top: 10px;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button2:hover {
+  background: none repeat scroll 0 0 #5780AE;
+  text-decoration: none !important;
+}
+
+.button_webinar:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button_webinar {
+  background: none repeat scroll 0 0 #00ad83;
+  border: 0 none;
+  color: #FFFFFF !important;
+  display: inline-block;
+  font-weight: normal;
+  line-height: normal;
+  margin-top: 10px;
+  padding: 8px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button_webinar:hover {
+  background: none repeat scroll 0 0 #5780AE;
+  text-decoration: none !important;
+}
+
+
+
+.red {
+color:#F00;
+}
+
+.smalltext {
+font-size: 10px;
+}

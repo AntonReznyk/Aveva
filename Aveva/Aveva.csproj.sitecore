@@ -1,0 +1,17 @@
+﻿<Project>
+  <PropertyGroup>
+    <Site Server="Aveva" UserName="sitecore\admin" IsRemoteSitecore="True" />
+  </PropertyGroup>
+  <File Include="Views\MainLayout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0014229A-B053-4364-B503-FBF053241916}</Item>
+  </File>
+  <File Include="/Views/Index/MainLayout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{0014229A-B053-4364-B503-FBF053241916}</Item>
+  </File>
+  <File Include="/Views/Header.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{ECF8FED1-3504-484A-B56D-2931B832B0BE}</Item>
+  </File>
+  <File Include="/Views/AboutLayout.cshtml" FileTimestamp="0" FileSize="0" ServerTimestamp="0" ServerFileSize="0">
+    <Item DatabaseName="master">{6277CCD7-E019-4D51-98B0-2F6987EBFC36}</Item>
+  </File>
+</Project>
